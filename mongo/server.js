@@ -18,7 +18,7 @@ routes(server);
 //console.log('hexa code------------>',hexdata);
 
 server.listen(1000, () => {
-  console.log('Serveur demarré en écoute sur le porte 1000 !');
+  console.log('Serveur demarré en écoute sur le porte 2000 !');
   mongoose.connect('mongodb://localhost/smartphone');
   mongoose.connection
     .once('open', () => console.log('Connexion à MongoDB établie !'))
